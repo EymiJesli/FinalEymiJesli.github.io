@@ -1,0 +1,105 @@
+body{
+color:black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contenedor{
+    background-color: #C0EEE4;
+    width: 100%;
+    height: 6em;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu1{
+    flex-basis: 50%;
+    align-items: center;
+    font-weight: bold;
+}
+#menu1 > ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    font-size: 16pt;
+    height: 100%;
+    list-style-type: none;
+}
+#menu1 a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu1 a:hover{
+    background-color: #DEBACE;
+    color: black;
+}
+#menu1 a:active{
+    background-color: black;
+    color: aliceblue;
+}
+.logo{
+    width: 4em;
+    height: 4em;
+    border-radius: 50px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+#cuerpo{
+    background-color: #F8F988;
+    width: 70%;
+    height: 40em;
+}
+.moto{
+    width: 30em;
+    height: 20em;
+    box-shadow: 12px 12px 12px 12px black;
+}
+#menu2{
+    background-color: #C0EEE4;
+    height: 3.5em;
+    font-size: 14pt;
+    font-weight: bold;
+}
+#final{
+    background-color: #FF9E9E;
+    color: black;
+    height: 8em;
+    font-weight: bold;
+}
+#video{
+    background-color: #FF9E9E;
+    width: 30%;
+    height: 40em;
+    float: right;
+}
+#principal{
+    margin: auto;
+}
+iframe{
+    height: 35em;
+    width: 30em;
+}
+#redes :hover{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    background: linear-gradient(#1497be,#1c2aec);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+}
+@keyframes text{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
